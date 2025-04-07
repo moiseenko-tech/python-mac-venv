@@ -25,3 +25,11 @@ sudo chown $(whoami):$(id -g) $VENV_DIR
 
 python3.13 -m venv $VENV_DIR
 ```
+
+## Install packages
+
+```bash
+source $VENV_DIR/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
