@@ -1,3 +1,4 @@
 -r requirements/ansible.txt
 -r requirements/linters.txt
 -r requirements/openstack.txt
+-r requirements/python.txt
